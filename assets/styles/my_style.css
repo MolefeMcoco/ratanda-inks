@@ -1,0 +1,393 @@
+@font-face{
+	font-family: 'gasmask';
+	src:url("../fonts/GASMASK.TTF");
+}
+
+@font-face{
+	font-family: 'goma';
+	src:url("../fonts/Goma-Western.ttf");
+}
+
+body{
+	background-color: rgb(28,28,28);
+}
+
+.site_container{
+	width: 80%;
+	margin: auto;
+}
+
+a{
+	cursor: pointer !important;
+}
+
+/*====header========*/
+header{
+	min-height: 150px;
+	position: relative;
+}
+
+.logo{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding-left: 0px !important;
+}
+
+.logo h1{
+	font-family: 'gasmask';
+	color: #fff;
+	font-size: 3em;
+	text-shadow: 3px 3px 5px #000;
+}
+
+/*====navigation========*/
+.navigation{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navbar{
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	background-color: #00698C;
+	border:solid 1px #00698C;
+	box-shadow: 5px 5px 8px #000;
+}
+
+.navbar a{
+	color: #fff !important;
+	font-family: 'goma';	
+	letter-spacing: 1px;
+}
+
+.active a{
+	background-color: #1a3c54 !important;
+}
+
+/*====main========*/
+
+.main{
+	min-height: 200px;
+	background-image: url("../images/bg-body.gif");
+	box-shadow: 5px 5px 8px #000;
+	border-top: solid 3px #00698C !important;
+	border-bottom: solid 3px #00698C !important;
+}
+
+.main_container{
+	width: 90%;
+	margin: auto;
+}
+
+.intro{
+	margin-top: 100px;
+}
+
+.intro h1{
+	color: #00698C;
+	font-family: 'goma';
+}
+
+.intro p{
+	color: #777777;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.left_header,.right_image{
+	min-height: 510px;
+}
+
+.left_header{
+	background-image: url("../images/bg-body.gif");
+	box-shadow: 5px 5px 8px #000;
+	border:solid 3px #00698C;
+}
+
+.right_image{
+	padding-right: 0px !important;
+}
+
+.right_image img{
+	box-shadow: 5px 5px 8px #000;
+	border:solid 3px #00698C;	
+}
+
+.image_line{
+	background-image: url("../images/bg-body.gif");
+	min-height: 200px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 8px #000;
+	padding: 20px;
+}
+
+.inline_image_holder{
+	border:solid 3px #00698C;
+	box-shadow: 8px 8px 10px #000 !important;
+}
+
+/*====contact banner========*/
+
+.contact_banner ul{
+	text-align: center;
+	list-style-type: none;
+	margin-top: 50px;
+}
+
+.contact_banner li{
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 20px;
+	border-radius: 100%;
+}
+
+.contact_banner i{
+	border:solid 2px #00698C;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	padding-top: .3em;
+	background-color: rgba(0,0,0,.5);
+}
+
+.contact_banner i:hover{
+	background-color: rgba(0,0,0,.8);
+}
+
+.fa-facebook{
+	color: #004fbc !important;
+}
+
+.fa-envelope{
+	color: #9e9999;
+}
+
+.contact_banner span{
+	color: #9e9999;
+	font-size: .8em;
+}
+
+.fa-mobile{
+	color: #8f8f8f;
+}
+
+.copyright{
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.end_title{
+	font-family: 'goma';
+	letter-spacing: 2px;
+	font-size: 2em;
+}
+
+.links{
+	list-style-type: none;
+	-webkit-padding-start: 0px !important;
+	-webkit-margin-before: 0em !important;
+}
+
+.links li{
+	display: inline-block;
+	margin: 10px;
+}
+
+.links a{
+	text-decoration: none;
+}
+
+.web {
+    color: #ffa500;
+}
+
+/*====Portfolio page========*/
+.portfolio_main{
+	border: none !important;
+	border-top: solid 3px #00698C !important;
+	border-bottom: solid 3px #00698C !important;
+}
+
+
+.portfolio{
+	margin-top: 20px;
+}
+
+.portfolio h1{
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'goma';
+	color: #00698C;
+	text-shadow:3px 3px 5px #000;
+	font-size: 4em; 
+}
+
+.portfolio_row{
+	margin-bottom: 80px;
+}
+
+.portfolio_image_holder img{
+	border:solid 3px #00698C;
+	box-shadow: 8px 8px 10px #000 !important;
+	-moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.portfolio_image_holder img:hover{
+	box-shadow: 10px 10px 13px #000 !important;
+	-moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.featherlight .featherlight-content {
+    padding: 10px 10px 0 !important;
+    border-bottom: 10px solid transparent !important;
+    background: #00698c !important; 
+}
+
+/*====Rates page========*/
+
+
+.rate_holder{
+	background-color: rgba(0,0,0,.5);
+	border:solid 2px #00698C;
+	margin-bottom: 100px;
+	box-shadow: 5px 5px 8px #000;
+	padding: 20px;
+}
+
+.rates_main h2{
+	font-family: 'goma';
+	color: #777;
+}
+
+
+
+.rates_main img{
+	border:solid 3px #000;
+	box-shadow: 5px 5px 8px #000;
+}
+
+.rates_main ul{
+	-webkit-padding-start:20px;
+	margin-top: 50px;
+}
+
+.rates_main li{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 30px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #777;
+}
+
+
+/*====about page========*/
+
+
+
+.about h1{
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'goma';
+	color: #00698C;
+	text-shadow:3px 3px 5px #000;
+	font-size: 4em; 
+}
+
+.about_section article{
+	margin-bottom: 50px;
+}
+
+.about_section h3{
+	font-family: 'goma';
+	color: #00698C;
+	letter-spacing: 2px; 
+}
+
+.about_section p{
+	color: #777777; 
+}
+
+.about_image{
+	border:solid 3px #00698C;
+	box-shadow: 5px 5px 8px #000;
+}
+
+.about_contact ul{
+	list-style-type: none;
+	-webkit-padding-start: 0px !important;
+	font-size: 1.2em;
+} 
+
+.about_contact li{
+	margin: 20px 0px;
+}
+
+.about_contact i{
+	margin-right: 10px;
+}
+
+.about_contact .fa-mobile{
+	font-size: 1.5em;
+}
+
+.about_contact .fa-envelope{
+	color: #fff;
+}
+
+.about_contact .fa-facebook-official{
+	color: rgb(45, 68, 134);
+}
+
+#send-message{
+	background-color: rgba(0,0,0,.5);
+	border:solid 2px #00698C;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 8px #000;
+	padding: 20px;
+}
+
+#send-message h3{
+	text-align: center;
+	font-family: 'goma';
+	color: #00698C;
+	text-shadow:3px 3px 5px #000;
+}
+
+#send-message span{
+	color: #ff0000cc !important;
+}
+
+.form-control{
+	color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+.btn-success{
+	background-color: #00698c !important;
+    border-color: #00698c !important;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover{
+	opacity: .8;
+	-moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

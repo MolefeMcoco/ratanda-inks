@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ratanda inks - About</title>
+    <!--  CSS -->
+    <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/styles/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="assets/styles/my_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/responsive.css" media="screen and (max-width:991px)">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="site_container">
+      <header>
+          <div class="row">
+            <div class="col-md-6 logo">
+              <h1>ratanda inks</h1>
+            </div>
+            <div class="col-md-6 navigation">
+                <nav class="navbar navbar-default">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="rates.html">Rates</a></li>
+                      <li class="active"><a href="about.html">About</a></li>
+                    </ul>
+                    
+                  </div><!--/.nav-collapse -->
+              </nav>
+            </div>
+          </div>
+      </header>
+      <div class="main about_main">
+        <div class="main_container">
+          <div class="row about">
+            <div class="col-md-12">
+              <h1>about</h1>
+            </div>
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-sm-4 col-sm-push-6">
+                  <div class="about_contact">
+                    <div class="about_image">
+                       <img class="img-responsive" src="assets/images/IMG_20180317_082536.jpg">
+                    </div>
+                    <ul>
+                      <li><i class="fa fa-envelope"></i><a href="#">thabang@gmail.com</a></li>
+                      <li><i class="fa fa-facebook-official"></i><a href="https://facebook.com/TYRONE.PAIN">Jabu J Ntshingila</a></li>
+                      <li><i class="fa fa-mobile"></i>0730179045</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6  col-sm-pull-4">
+                  <div class="about_section">
+                    <article>
+                      <h3>About The Tattooist</h3>
+                      <p>My name is Thabang given by my lovely grandmother,who is a dear to my clients.I am operating a home based tattoo studio,I am a self taught tattoo artist (it actually isn't really so difficult) from beginner to pro.i understand what you want to on your skin even if you don't know what you want,anything can be done with just effort and time.</p>
+                    </article>
+                  </div>
+                  <div id="send-message">
+                      <h3>leave a message</h3>
+                      <form method="post" action="message.php" onsubmit="return sendMessage()">
+                          <div class="form-group">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" autocomplete="name"><br>
+                          <span id="name_required"></span>
+                          </div>
+                          <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email" autocomplete="email"><br>
+                          <span id="email_required"></span>
+                          </div>
+                          <div class="form-group">
+                          <textarea placeholder="Message" name="message" class="form-control" id="message" rows="8"></textarea><br>
+                          <span id="message_required"></span>
+                          </div>
+                          <input type="submit" class="btn btn-success">
+
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row contact_banner">
+        <div class="col-md-12">
+          <ul>
+            <li><a href="https://facebook.com/Incredible-Ratanda-Inks-1591570034234216"><i class="fa fa-facebook" title="@incredibleinks"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope" title="thabang@gmail.com"></i></a></li>
+            <li><i class="fa fa-mobile hidden-xs tooltip-viewport-top"  title="071 039 3945"></i> <span class="hidden-md hidden-lg">071 039 3945</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-md-12">
+          <p class="end_title">Ratanda Inks</p>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="rates.html">Rates</a></li>
+          </ul>
+          <p>Designed by <a href="https://www.mmwebdesign.co.za"><span class="mm">M.M</span> <span class="web">Web design</span></a> - &copy; All rights reserved</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="assets/scripts/jquery-3.3.1.min.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/validation.js"></script>
+    <script src="assets/scripts/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

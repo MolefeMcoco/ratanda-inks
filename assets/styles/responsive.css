@@ -1,0 +1,148 @@
+.logo h1{
+	font-size: 2.5em !important;
+}
+.intro{
+	margin-top: 50px;
+}
+
+.intro p,.intro img{
+	margin-bottom: 50px;
+}
+
+.inline_image_holder{
+	border:solid 3px #00698C;
+	box-shadow: 8px 8px 10px #000 !important;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+	.site_container{
+		width: 90% !important;
+	}
+
+	.logo{
+		position: relative !important;
+		padding-left: 15px !important;
+	}	
+
+	.navigation{
+		position: relative;
+		padding-right: 15px !important;
+		padding-left: 15px !important;
+		clear: 
+	}
+
+	.navbar{
+		background-color: transparent !important;
+		border:none;
+		box-shadow: none;
+	}
+
+	.navbar-default .navbar-collapse{
+		background-color: #1a3c5469;
+	}
+
+	.navbar-toggle{
+	    border-color: #00698c !important;
+	    background-color: transparent !important;
+	}
+
+	.navbar-toggle:hover{
+	    cursor: pointer;
+	}
+
+	.main{
+		border-top: none !important;
+	}
+
+	.contact_banner span{
+		color: #9e9999;
+		font-size: .8em;
+	}
+
+	.portfolio_image_holder img{
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 425px){
+	.site_container{
+		width: 100% !important;
+		margin: 0px !important;
+	}
+
+
+	.row{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+
+	.main_container{
+		width: 98%;
+	}
+
+	.logo{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+
+	.logo h1{
+		font-size: 2em;
+		padding-left: 10px;
+	}
+
+	.navigation{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+
+	.intro {
+	    margin-top: 5px;
+	}
+
+	.intro p{
+		font-size: 1em;
+	}
+	.image_line{
+		margin-top: 50px;
+		padding: 0px;
+		margin-bottom: 50px;
+	}
+
+	.inline_image_holder{
+		margin-bottom: 50px;
+	}
+
+	.contact_banner span{
+		padding-top: 20px !important;
+	}
+
+	.end_title{
+		font-size: 1.5em;
+	}
+
+	.contact_banner li:nth-child(3){
+		padding-top: 10px;
+		font-size: 1.5em;
+	}
+
+	.portfolio_image_holder img{
+		margin-top: 20px;
+	}
+
+	.rates_main li {
+	    font-size: .8em;
+	}
+	.intro p{
+		line-height: 24px;
+	}
+
+	.rates_main .sec{
+		padding-right: 0px !important;
+    	padding-left: 0px !important;
+	}
+
+}
